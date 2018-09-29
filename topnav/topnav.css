@@ -1,0 +1,85 @@
+body {margin:0; padding: 0;}
+
+.topnav {
+	overflow: hidden;
+	background-color: #013a65;
+}
+
+.topnav button, .topnav p {
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 20px;
+	background: none;
+	margin: 0px;
+	vertical-align: center;
+	text-align: left;
+}
+
+.topnav p { 
+	float: left;
+	font-size: 40px;
+    padding: 20px;
+    float: left;
+	margin: 0px;
+	display: block;
+}
+
+#headerContainer {
+	float: right;
+}
+
+.topnav button {
+	padding: 30px;
+	display: inline-block;
+	border: 0px solid red;
+}
+
+#icon {
+	display: none;
+	font-size: 30px; 
+	padding-top: 23px; 
+}
+
+#headerContainer button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	
+	.topnav button, .topnav p {
+    	width: 60%;
+        padding: 20px;
+    }
+	
+	#headerContainer {
+		width: 100%;
+		float: left;
+		display: none;
+	}
+	
+	#headerContainer button {
+		width: 100%;
+	}
+	
+	#headerContainer button:hover {
+		//border-top: 1px solid white;
+		//border-bottom: 1px solid white;
+		text-decoration: none;
+		color: #a0a0a0;
+	}
+	
+	#icon {
+		width: 20%;
+		display: block;
+		float: right;
+		text-align: center;
+		outline: none;
+	}
+	
+	#icon:hover {
+		cursor: pointer;
+		color: #a0a0a0;
+	}
+    
+}
