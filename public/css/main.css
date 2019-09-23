@@ -1,7 +1,6 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	// background-color:   // #011d32; 
 }
 
 /* CSS for ToC */
@@ -11,13 +10,16 @@ html, body {
 	border: 0px solid #d2d2d2;
 	background-color: #e6f2ff;
 	float: left;
-	padding: 0.5rem 0rem;
+	padding: 0.3rem 0rem;
 }
 
 #fundamentals h2 {
 	text-align: center; 
-	color:  #011d32; //#c4d8ed; 
+	color:  #011d32;
 	font-family: Palatino;
+	margin: 0rem 1rem;
+	padding: 0.5rem;
+	border-bottom: 1px solid black;
 }
 
 #fundamentals button {
@@ -45,7 +47,7 @@ html, body {
 	height: auto;
 	float: left;
 	margin-left: 3%;
-	border: 0px solid #0369ca;//#011d32;
+	border: 0px solid #0369ca;
 	margin-top: 25px;
 	padding: 0% 3%;
 }
@@ -53,12 +55,13 @@ html, body {
 @media screen and (max-width: 768px) {	
 	#fundamentals {
 		width: 90%;
-		margin: 25px 5%;
+		margin: 5%;
 	}
 	
 	#mainContainer {
 		width: 80%;
 		float: left;
+		margin-top: 0%;
 		margin-left: 5%;
 		padding: 1% 5%;
 	}
