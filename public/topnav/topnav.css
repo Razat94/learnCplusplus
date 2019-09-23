@@ -1,5 +1,6 @@
 body {margin:0; padding: 0;}
 
+/* Navbar */
 .topnav {
 	overflow: hidden;
 	background-color: #013a65;
@@ -26,6 +27,7 @@ body {margin:0; padding: 0;}
 
 #headerContainer {
 	float: right;
+	display: block;
 }
 
 .topnav button {
@@ -45,11 +47,15 @@ body {margin:0; padding: 0;}
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+	
+	.topnav {
+		border-bottom: 5px solid black;
+	}
 	
 	.topnav button, .topnav p {
-    	width: 60%;
-        padding: 20px;
+    	width: 50%;
+		padding: 1rem;
     }
 	
 	#headerContainer {
@@ -60,13 +66,14 @@ body {margin:0; padding: 0;}
 	
 	#headerContainer button {
 		width: 100%;
+		padding: 1rem;
 	}
 	
 	#headerContainer button:hover {
-		//border-top: 1px solid white;
+		border: 1px solid white;
 		//border-bottom: 1px solid white;
 		text-decoration: none;
-		color: #a0a0a0;
+		color: white;
 	}
 	
 	#icon {
