@@ -1,0 +1,41 @@
+#aboutContainer {
+	width: 100%;
+	margin: auto;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+/* For devices 576 px and smaller */
+@media (max-width: 576px) {
+  #aboutContainer {
+    padding: 1rem;
+  }
+}
+
+/* For devices b/w 576px and 767px  */
+@media (min-width: 576px) and (max-width: 767px) {
+  #aboutContainer {
+	padding: 1rem 1rem;
+  }
+}
+
+/* For devices b/w 768px and 991px  */
+@media (min-width: 768px) and (max-width: 991px) {
+  #aboutContainer {
+	padding: 1rem 3rem;
+  }
+}
+
+/* For devices b/w 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #aboutContainer {
+	padding: 1rem 8rem;
+  }
+}
+
+/* For devices 1200px and larger */
+@media (min-width: 1200px) {
+  #aboutContainer {
+	padding: 1rem 12rem;
+  }
+}
