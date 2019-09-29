@@ -17,9 +17,7 @@ html, body {
 	float: left;
 	padding: 1rem 0rem 0.3rem;
 	margin-right: 3%;
-	overflow-y: auto;
-	overflow: auto;
-	display:table-cell;
+	display: table-cell;
 	min-height: calc(100% - 4rem);
 	/* I got the above rule from this stack overflow answer */
 	/* https://stackoverflow.com/questions/22934016/extend-div-to-bottom-of-page-only-html-and-css*/
@@ -80,7 +78,7 @@ html, body {
 	#sidebar {
 		width: 90%;
 		margin: 5%;
-		height: auto;
+		min-height: 1px;
 		padding: 0.3rem 0rem;
 	}
 	
@@ -89,6 +87,7 @@ html, body {
 		float: left;
 		margin-top: 0%;
 		margin-left: 5%;
+		margin-bottom: 5%;
 		padding: 1% 5%;
 	}
 }

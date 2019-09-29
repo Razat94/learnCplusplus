@@ -1,10 +1,10 @@
 /* When a user clicks on the hamburger icon (For devices under 600 px), the following function gets called */
 function hamburgerClick() {	
-	if ( document.getElementById("headerContainer").style.display == 'block') {
-		document.getElementById("headerContainer").style.display = 'none';
+	if ( document.getElementById("navContainer").style.display == 'block') {
+		document.getElementById("navContainer").style.display = 'none';
 	}
 	else {
-		document.getElementById("headerContainer").style.display = 'block';
+		document.getElementById("navContainer").style.display = 'block';
 	}
 }
 
@@ -12,9 +12,9 @@ function hamburgerClick() {
 function resizeNavbar() {
 	var width = window.innerWidth;
 	if ( width >= 768) {
-		document.getElementById("headerContainer").style.display = 'block';
+		document.getElementById("navContainer").style.display = 'block';
 	}
 	else {
-		document.getElementById("headerContainer").style.display = 'none';
+		document.getElementById("navContainer").style.display = 'none';
 	}
 }

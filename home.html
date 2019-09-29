@@ -13,34 +13,36 @@
 		<link rel = "stylesheet" type = "text/css" href = "./public/common/jumbotron/jumbotron-bootstrap.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "./public/common/blockquote/blockquote.css"/>
 	</head>
-	
-
 
 	<body onresize="resizeNavbar()">
 
 		<!--  Navbar -->
-		<div class="topnav">
+		<nav>
 			<p>Learn C++</p>
 			<button id = "icon" onclick = "hamburgerClick()">&#9776;</button>
-			<div id = "headerContainer">
+			<div id = "navContainer">
 				<button onclick = "location.href = './home.html';" >Home</button>
 				<button onclick = "location.href = './about.html';" style = "color: #a0a0a0;">About</button>
 			</div>  
-		</div>
+		</nav>
 
 		<!-- Table of Contents (ToC) -->
 		<div id = "sidebar">
 			<h2> Main Menu </h2>
 			<button> <strong> <u> Intro to Programming </u> </strong> </button> 
-			<button onclick = "location.href = './chapters/chapter1-hello-world/index.html';">Hello, World!</button>
-			<button>Data Types and Variables</button>
+			<button onclick = "location.href = './chapters/chapter1-hello-world/index.html';">
+				Hello, World!
+			</button>
+			<button onclick = "location.href = './chapters/chapter2-data-types-and-variables/index.html';">
+				Data Types and Variables
+			</button>
 			<button>Input and Output</button>
 			<button>Conditional Statements</button>
 			<button>Loops</button>
 			<button>Functions</button>
 			<button>Arrays</button>
 		</div>
-		
+
 		<!-- Main Content -->
 		<section id = "mainContainer">
 			<h2 style = "text-align: center;"> Welcome! </h2>
