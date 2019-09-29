@@ -1,21 +1,33 @@
 html, body {
+	height: 100%;
 	padding: 0;
 	margin: 0;
+	display: table;
+	/* The above rule display:table is used to make fundamentals bar reach to the bottom of the page */
+	/* Source: https://codepen.io/kvana/pen/LZWQMo */ 
+
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* CSS for ToC */
-#fundamentals {
+
+#sidebar {
 	width: 30%;
-	margin: 2rem 0%;
 	border: 0px solid #d2d2d2;
 	background-color: #e6f2ff;
 	float: left;
-	padding: 0.3rem 0rem;
+	padding: 1rem 0rem 0.3rem;
 	margin-right: 3%;
+	overflow-y: auto;
+	overflow: auto;
+	display:table-cell;
+	min-height: calc(100% - 4rem);
+	/* I got the above rule from this stack overflow answer */
+	/* https://stackoverflow.com/questions/22934016/extend-div-to-bottom-of-page-only-html-and-css*/
+
+	/* margin: 2rem 0%; */
 }
 
-#fundamentals h2 {
+#sidebar h2 {
 	text-align: center; 
 	color:  #011d32;
 	font-family: Palatino;
@@ -24,22 +36,22 @@ html, body {
 	border-bottom: 1px solid black;
 }
 
-#fundamentals button {
+#sidebar button {
 	border: none;
-	//border: 1.5px solid #025697; // #e6f2ff;// #025697;//#02487e;
-	background: none; #d2d2d2; 
+	/* border: 1.5px solid #025697; */  /* #e6f2ff; #025697;#02487e; */
+	background: none; /* #d2d2d2; */ 
 	color: #011d32;
 	width: 100%;
 	height: 50px;
 	margin-bottom: 1%;
 	font-family: Garamond;
 	font-size: 16px;
-	//box-shadow: 2px 2px 2px #025697;
+	/* //box-shadow: 2px 2px 2px #025697; */
 	outline: none;
 	cursor: pointer;
 }
 
-#fundamentals button:hover {
+#sidebar button:hover {
 	border: 3px solid #0369ca;
 	border-radius: 3px;
 }
@@ -51,6 +63,7 @@ html, body {
 	border: 0px solid #0369ca;
 	margin-top: 2rem;
 	padding: 0% 3%;
+	display:table-cell;
 }
 
 #mainContainer h2 {
@@ -59,9 +72,16 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {	
-	#fundamentals {
+
+	body {
+		display: block;
+	}
+
+	#sidebar {
 		width: 90%;
 		margin: 5%;
+		height: auto;
+		padding: 0.3rem 0rem;
 	}
 	
 	#mainContainer {
