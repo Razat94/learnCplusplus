@@ -2,12 +2,20 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Learn C++ </title>
-		<link rel = "stylesheet" type = "text/css" href = "./public/topnav/topnav.css">
+		
+		<title> Home | Learn C++ </title>
+		<meta description = "learnCplusplus is a free website for people who want to learn C++.">
+
+		<link rel = "stylesheet" type = "text/css" href = "./public/common/topnav/topnav.css">
 		<link rel = "stylesheet" type = "text/css" href = "./public/css/main.css">
-		<script type="text/javascript" src="./public/topnav/topnav.js" ></script>
+		<script type="text/javascript" src="./public/common/topnav/topnav.js" ></script>
+
+		<link rel = "stylesheet" type = "text/css" href = "./public/common/jumbotron/jumbotron-bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "./public/common/blockquote/blockquote.css"/>
 	</head>
 	
+
+
 	<body onresize="resizeNavbar()">
 
 		<!--  Navbar -->
@@ -23,9 +31,9 @@
 		<!-- Table of Contents (ToC) -->
 		<div id = "fundamentals">
 			<h2> Main Menu </h2>
-			<button> <strong> Intro to Programming </strong> </button> 
-			<button>Hello, World!</button>
-			<button>Data types and Variables</button>
+			<button> <strong> <u> Intro to Programming </u> </strong> </button> 
+			<button onclick = "location.href = './chapters/chapter1-hello-world/index.html';">Hello, World!</button>
+			<button>Data Types and Variables</button>
 			<button>Input and Output</button>
 			<button>Conditional Statements</button>
 			<button>Loops</button>
@@ -34,25 +42,33 @@
 		</div>
 		
 		<!-- Main Content -->
-		<div id = "mainContainer">
+		<section id = "mainContainer">
 			<h2 style = "text-align: center;"> Welcome! </h2>
+
 			<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet euismod turpis. Donec sollicitudin libero id tellus dignissim cursus. Etiam hendrerit, turpis eget vulputate posuere, lorem est accumsan sem, quis tristique nulla dolor nec ex. Donec ullamcorper ante in augue placerat, id vulputate felis posuere. Phasellus varius rutrum orci. Phasellus suscipit nunc elit, at egestas elit molestie et. Proin et turpis ut metus vehicula lobortis. Sed ultricies eros luctus odio pellentesque, vitae sodales diam rutrum. Phasellus blandit tortor lobortis dui vulputate, vel venenatis nunc efficitur. Nulla hendrerit elit in diam hendrerit lacinia. Etiam quis ullamcorper erat, non fringilla erat.
+				This website contains sections explaining the basics of the C++ programming language.
+
 			</p>
-			
+
 			<p>
-
-			Phasellus auctor elementum eros, eget suscipit dolor egestas in. Etiam eu massa feugiat, consequat ex eu, fermentum neque. Sed auctor tempus urna, suscipit vulputate nunc semper elementum. Morbi turpis tellus, consectetur in justo sit amet, accumsan interdum felis. Quisque erat orci, vestibulum vitae ullamcorper vel, facilisis at neque. In pharetra a quam nec vehicula. Nam vitae ipsum at diam venenatis luctus ac auctor odio. Donec lobortis blandit lacinia. In commodo, eros sit amet blandit facilisis, tortor magna tempus urna, et blandit ligula ipsum quis ex. Sed sed augue in lectus mollis consectetur. Sed vel quam non eros sagittis sollicitudin quis in risus. Sed massa sapien, gravida eget accumsan eu, fermentum a augue. Vestibulum scelerisque felis sit amet augue sodales interdum. Nunc eget neque id augue vulputate lacinia feugiat at tortor. Suspendisse potenti. Integer non eros quis augue rhoncus facilisis eget ut elit.
-
+				Each section shown in the main menu represents different programming concepts to learn from. 
+				If you are absolutely new to programming, please start from the top and work your way to the botom. 
+				As you go through the tutorials, you will learn the overall process of designing, developing, and executing a computer program in C++.
 			</p>
-			
-			<p>
 
-			Proin vel egestas urna, sed tempus enim. Sed rutrum nunc vel vulputate facilisis. Phasellus vel luctus enim, nec euismod est. Maecenas mattis quis nisi eget tincidunt. Proin ut nibh neque. Morbi scelerisque tincidunt nisi, ut posuere quam sodales eu. Morbi id massa vitae dolor varius euismod at sit amet sem. Proin eget velit arcu. Sed at ultricies sem. Aenean porttitor, libero sit amet pharetra commodo, ex purus elementum mauris, quis aliquet turpis felis non nisl.
+			<div class="jumbotron" style = "margin-bottom: 1rem;">
+				<p>
+						Programming in general can be a bit daunting at times, but overall I like doing it.
+						I hope you enjoy it too :)
+				</p>
+			</div>
 
-			Morbi arcu nunc, iaculis ac egestas et, euismod sed ligula. Donec commodo felis vel ante rhoncus, nec porttitor nisi vehicula. Sed sed nisl ante. Maecenas nulla nulla, tincidunt id tortor ac, viverra pellentesque arcu. Cras felis nisi, tincidunt eu tempor ut, placerat eu nisi. Quisque aliquam, enim quis tincidunt consectetur, turpis nulla dapibus nunc, vitae suscipit sapien lacus sit amet metus. Nam id mauris maximus, mollis felis eget, rutrum felis. Cras iaculis nulla a dui semper, sed sodales nisi tincidunt. Maecenas feugiat vel quam quis laoreet. Aliquam erat volutpat. Nam sollicitudin ipsum eu dui gravida pellentesque. Aliquam id ultrices libero, sed pretium dui.
-			
-			</p>
-		</div>
+			<blockquote>
+				<p>
+					Please check out the <a href = "./about.html">about page</a> for references
+				</p>
+			</blockquote>
+
+		</section>
 	</body>
 </html>
