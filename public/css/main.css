@@ -70,6 +70,41 @@ html, body {
 	padding: 0.5rem;
 }
 
+#mainContainer a, #aboutContainer a {
+	color: #002857;
+}
+
+.xsmallRem {
+	height: 10rem;
+}
+
+.smallRem {
+	height: 20rem;
+}
+
+.mediumRem {
+	height: 30rem;
+}
+
+.largeRem {
+	height: 40rem;
+}
+
+.xlargeRem {
+	height: 50rem;
+}
+
+.blueBorder {
+	border: 1px solid #3575d3;
+	width: 100%;
+}
+
+.grayBorder {
+	border: 1px solid #aeb8c9;
+	background-color: #edf4f9;
+	width: 100%;
+}
+
 @media screen and (max-width: 768px) {	
 
 	body {
