@@ -94,12 +94,13 @@ html, body {
 	height: 50rem;
 }
 
-.blueBorder {
+.codeBoxBorder {
 	border: 1px solid #3575d3;
 	width: 100%;
+	margin-bottom: 0.25rem;
 }
 
-.grayBorder {
+.textBoxBorder {
 	border: 1px solid #aeb8c9;
 	background-color: #edf4f9;
 	width: 100%;

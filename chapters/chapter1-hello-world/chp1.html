@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--- Basic page needs (meta information) -->
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- SEO tags -->
+		<title>  Hello World! | Learn C++ </title>
+		<meta name="description" content="learnCplusplus is a free website for people who want to learn C++.">
+		<meta name="author" content="Raza Tahir">
+
+		<!-- Navbar links -->
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/topnav/topnav.css">
+		<script type="text/javascript" src="../../public/common/topnav/topnav.js" ></script>
+
+		<!-- Remaining stylesheets -->
+		<link rel = "stylesheet" type = "text/css" href = "../../public/css/main.css">
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/jumbotron/jumbotron-bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/blockquote/blockquote.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/breadcrumb/breadcrumb.css">
+	</head>
+
+	<body onresize="resizeNavbar()">
+
+		<!--  Navbar -->
+		<nav>
+			<p>Learn C++</p>
+			<button id = "icon" onclick = "hamburgerClick()">&#9776;</button>
+			<div id = "navContainer">
+				<button onclick = "location.href = '../../home.html';"  style = "color: #a0a0a0;" >Home</button>
+				<button onclick = "location.href = '../../about.html';" style = "color: #a0a0a0;">About</button>
+			</div>
+		</nav>
+
+		<!-- Table of Contents (ToC) -->
+		<div id = "sidebar">
+			<h2> Main Menu </h2>
+			<button onclick = "location.href = '../../home.html';"> Home </button> 
+			<button onclick = "location.href = '../chapter0-intro-to-programming/chp0.html';"> Intro to Programming </button> 
+			<button> 
+				<strong> <u> Hello, World! </u> </strong> 
+			</button>
+			<button onclick = "location.href = '../chapter2-data-types-and-variables/chp2.html';">
+				Data Types and Variables
+			</button>
+			<button>Input and Output</button>
+			<button>Conditional Statements</button>
+			<button>Loops</button>
+			<button>Functions</button>
+			<button>Arrays</button>
+		</div>
+		
+		<!-- Main Content -->
+		<section id = "mainContainer">
+			<ul class="breadcrumb">
+				<li><a href="../../home.html">Home</a></li>
+				<li>Hello, World!</li>
+			</ul>
+			
+			<h1 style = "text-align: center;"> Structure of the "Hello, World!" C++ Program </h1>
+
+			<iframe src="chp1-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="chp1-00.txt" class = "xsmallRem textBoxBorder" frameborder="0"></iframe>
+
+		</section>
+	</body>
+</html>
