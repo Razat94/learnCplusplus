@@ -10,6 +10,11 @@ html, body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+img {
+	margin-bottom: 1rem;
+	width: 100%;
+	text-align: center;
+}
 
 #sidebar {
 	width: 30%;
@@ -74,9 +79,14 @@ html, body {
 	color: #002857;
 }
 
-.xsmallRem {
+.xxsmallRem {
 	height: 10rem;
 }
+
+.xsmallRem {
+	height: 15rem;
+}
+
 
 .smallRem {
 	height: 20rem;
@@ -95,16 +105,17 @@ html, body {
 }
 
 .codeBoxBorder {
-	border: 1px solid #3575d3;
+	border: 1px solid steelblue; /*  #3575d3; */
 	width: 100%;
-	margin-bottom: 0.25rem;
+	margin-bottom: 0.25rem;/* */
 }
 
 .textBoxBorder {
 	border: 1px solid #aeb8c9;
-	background-color: #edf4f9;
+	background-color: #edf4f9; /* aliceblue; */
 	width: 100%;
 }
+
 
 @media screen and (max-width: 768px) {	
 

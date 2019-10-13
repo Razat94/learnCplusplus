@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 	<head>
 		<!--- Basic page needs (meta information) -->
 		<meta charset="utf-8">
@@ -63,12 +63,113 @@
 			
 			<h1 style = "text-align: center;"> Structure of the "Hello, World!" C++ Program </h1>
 
-			<iframe src="../programs/chapter1/chp1-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
-			<iframe src="../programs/chapter1/chp1-00.txt" class = "xsmallRem textBoxBorder" frameborder="0"></iframe>
+			<p> In the last chapter, we introduced the idea of what a computer program does. 
+				Let's now write a simple C++ program.
+			</p>
+
+			<p> Open up the text editor/IDE of your choice, copy the content below and paste it: </p>
+
+			<iframe src="../programs/chapter1/chp1-00.cpp" class = "xxsmallRem codeBoxBorder" frameborder="0"></iframe>
+			
+			<p>
+				The above code is a program (i.e. a series of steps) for the computer to execute. 
+				We'll look at what was pasted after we've compiled the program. 
+				For now, let's compile and run the program.
+				To do that, you usually would just press a button.
+				For example, I use DevC++, so on the menu bar, 
+				I would click 'Execute' -> 'Compile and Run' to execute the program.
+			</p>
+
+			<img src = "../images/chapter1/howToCompile.png"/>
+
+			<blockquote>
+				<p>
+					Compiling programs varies on the editor/environment of your choice.
+					You will need to find instructions accordingly. 
+				</p>
+			</blockquote>
+
+			<p>
+				Once you've executed the program, a console window should appear that contains the output of your program.
+				When I have compiled the above code, this is how my console window appeared:
+			</p>
+
+			<img src = "../images/chapter1/consoleWindow.PNG"/>
+
+			<p>
+				As you can tell, our program outputted the sentence <i>Hello, World!</i> to the console window.
+				And that's it! You've compiled and executed your very first C++ program.
+			</p>
+
+			<div class="jumbotron" style = "margin-bottom: 1rem;">
+				<p>
+					In case you're wondering, 
+					every program that you'll see on this website will be compiled and executed in this way. 
+					The <i>source code</i> (i.e. the code that you've copied & pasted) might vary program to program, 
+					but the process of compiling and executing the program will always be the same.
+				</p>
+			</div>
+
+			<p>
+				Let's now look at the various statements of the 'Hello World' program.
+				<br>The following points will seem confusing at first, but you'll understand them soon enough:
+			</p>
+
+			<ul>
+				<li> 
+					<i>// This file is named chp1-00.cpp</i>
+					<br>Statements followed by a // are called a <mark>comment</mark>. <br>
+					<strong>Note: Comments are for readers only.</strong> <br>
+					Comments have no significance on the execution of the program.
+					Programmers write comments to provide useful short explanations for the code they've written.
+					In-line comments (a.k.a. Single line comments) follow the above notation, and only comment out the characters written on that line.
+					If you'd like to write a comment that takes up muliple lines, use a multi-line comment:
+					<blockquote>
+						<p>
+							/* <br>
+							<bold> Your comment(s) </bold> <br>
+							*/
+						</p>
+						</blockquote>
+				</li>		
+				<li> 
+					<i>#include &lt;iostream&gt;</i> <br>
+					Essentially, this header tells the computer to include the iostream library.
+					A <mark>library</mark> contains code that is either necessary or useful to your program. 
+					For this program, including the iostream library allows us to print statements to the console. 
+				</li>
+				<li> 
+					<i> using namespace std; </i> <br>
+					This statement includes the standard namespace in your program.
+					Without using this statement; cout statements will be written like so: <br> 
+					<i>std::cout &lt;&lt;</i>
+				</li>
+				<li> 
+					<i> 
+						int main() {
+						<br>
+						} 
+					</i> <br>
+						
+					The above code is called the <mark> main function.</mark> <br> 
+					For now, just know that this function can be found in all C++ programs; 
+					it is the function called when the program runs i.e. 
+					this is where the main code of the program is found.
+				</li>
+				<li> 
+					<i> cout << "Hello, World!"; </i> <br>
+					As you might guss, this C++ statement outputs the message "Hello, World!" onto the screen.
+				</li>
+			</ul>
+
+			<p>References:</p>
+			<a href = "https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm">tutorialspoint</a> <br>
+			<a href = "http://www.cplusplus.com/doc/tutorial/program_structure/">cplusplus.com</a> <br>
+			<a href = "https://www.learn-cpp.org/en/Hello%2C_World%21">Learn-cpp</a>
 
             <div class = "pagination">
                 <a class="pagination-link prev" href="./chp0.html"> &#8249; Previous</a>
-                <a class="pagination-link next" href="./chp1.html">Next &#8250;</a>
+                <a class="pagination-link next" href="./chp2.html">Next &#8250;</a>
             </div>
 		</section>
 	</body>
