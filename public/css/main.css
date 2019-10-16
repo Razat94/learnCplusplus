@@ -75,6 +75,10 @@ img {
 	padding: 0.5rem;
 }
 
+/* If you ever want to affect all p and li sizes */
+#mainContainer p, #mainContainer li {
+}
+
 #mainContainer a, #aboutContainer a {
 	color: #002857;
 }
