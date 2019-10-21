@@ -1,0 +1,1 @@
+[Error] expected '}' at end of input
