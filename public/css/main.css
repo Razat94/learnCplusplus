@@ -80,7 +80,8 @@ img {
 }
 
 #mainContainer a, #aboutContainer a {
-	color: #002857;
+	/* color: #002857; */
+	color: #0086b3;
 }
 
 
