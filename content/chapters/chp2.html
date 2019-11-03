@@ -65,7 +65,13 @@
 			
 			<p> In the last chapter, we wrote our first computer program that outputted the text "Hello, World!" upon execution.</p>
 
-			<p> \0
+			<p>
+				As you may know, computer allocates memory to programs in bits. 
+				Programs can use different types of bits to represent data.
+				Different type sizes can have different bit sizes; the more bits a type has, the more distinct values it can represent, but at the same time, also consumes more space in memory.
+			</p>
+
+			<p>
 				When we outputted the sentence "Hello, World", we outputted a string.
 				A string is a type of data that refers to a string of characters.
 				The string data type is just one of many data type.
@@ -92,45 +98,76 @@
 			</ul>
 
 			<p>
-				Let's now go over each one in detail.
+				Let's now go over each data type in detail.
 			</p>
-			
+	
 			<ul>
 				<li>
 					<i>int</i>
 					<iframe src="../programs/chapter2/chp2-00.cpp" class = "xsmallRem codeBoxBorder" frameborder="0"></iframe>
 					<iframe src="../programs/chapter2/chp2-00.txt" class = "xxsmallRem textBoxBorder" frameborder="0"></iframe>
-			
+					<p>
+					As you may guess, int simply stands for 'integer'.
+					In normal mathematics, integers are known as whole numbers 
+					i.e. numbers without a fractional component. 
+					In C++, this concept is a bit different.
+					In programming, the int data type is represented by 32 bit memory.
+					<br>
+					You can visualize this number by thinking of 32 individual bits.
+					Each bit can be "on" (1) or "off" (0), and because there are 32 bits in an int value,
+					the total number would be 2<sup>32</sup> = 4,294,967,296 (~4 billion).
+					It is important to keep in mind that we must include negative numbers and the number 0.
+					Thus, the values for the int data type can only go up to +2147483647 & -2147483648.
+					</p>
 				</li>
 				<li>
 					<i>double</i>
+					<p>
+						This type represents real values, such as integers AND decimal numbers.
+					</p>
 				</li>
 				<li>
 					<i>char</i>
+					<p>
+						This type represents a single character, such as 'Y', 'N' or '@'. 
+						This character represents a byte of information. 		
+					</p>
 				</li>
 				<li>
 					<i>string</i>
 					<p>
-						We can strings like so:
-						print ( "Hello " + "World");
+						As you may guess, the string data type represents a string of characters.
+						We can use strings like so:
+						cout << "Hello " + "World"
 					</p>
 				</li>
 				<li>
 					<i>bool</i>
 					
 					<p>
-						Boolean types simply  
+						Boolean types can simply represent true or false; 1 or 0.  
 					</p>
 				</li>
 			</ul>
 			
 			<p>
-				Although there are different data types, we must be careful when comparing data types.
-				If I try outputting print ( 3 + "Hello World" ), I should of course get an error.
+				Although there are different data types, we must be careful when dealing and comparing data types.
+				You can add two strings together: 
+					<br> cout << "Hello " + "World!";
+				<br> <br> & you can add two integers together:
+					<br> cout << 3 + 4;
+				<br> <br> But if I try adding two different data tyles like so: cout << ( 3 + "Hello World" ); 
+				I should of course get an error.
 				Does it make any sense to add "Hello World!" to the integer three?
-				
-				A more relateable example would be: print ( 3 + "4" );
+				<br> <br>
+				Although the last example was a bit intuitive, it can help answer the next question: 
+				Does it make any sense to add 3 & "4" together? Like so: cout << 3 + "4"; The answer to that is no as well.
 			</p>
+
+			<p>References:</p>
+			<a href = "https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm">tutorialspoint</a> <br>
+			<a href = "http://www.cplusplus.com/doc/tutorial/variables/">cplusplus.com</a> <br>
+			<a href = "https://www.learn-cpp.org/en/Hello%2C_World%21">Learn-cpp</a>
 
             <div class = "pagination">
 				<a class="pagination-link prev" href="./chp1.html"> &#8249; Previous</a>
