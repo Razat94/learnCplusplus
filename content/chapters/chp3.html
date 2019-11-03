@@ -63,6 +63,50 @@
 
 			<h1 style = "text-align: center;"> Variables in C++ </h1>
 
+			<!--
+				https://stackoverflow.com/questions/6490252/vertically-centering-a-div-inside-another-div#answer-19330006
+			-->
+			
+			<p> First, initialize the variable: </p> </td> </tr>			
+			<table id="outerDiv" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td valign="middle" id="innerDiv" style = "text-align: center;"> blah
+					</td>
+				</tr>
+				<tr>		
+					<td valign="middle" id="innerDiv" style = "text-align: center; border: 1px solid black; height: 3rem; width: 3rem;">
+					</td>		
+				</tr>
+			</table>
+
+			<p>Then, assign a value to that variable: </p>
+			<table>
+				<tr>
+					<td valign="middle" id="innerDiv" style = "text-align: center;"> blah
+					</td>
+				</tr>
+				<tr>
+					<td valign="middle" id="innerDiv" style = "border: 1px solid black; height: 3rem; width: 3rem;">
+					</td>
+					<td valign="middle" id="innerDiv" style = "width: 4rem; text-align: center; font-size:2rem;"> &larr;
+					</td>
+					<td valign="middle" id="innerDiv" style = "font-size:1rem;"> 5
+					</td>
+				</tr>
+			</table>
+
+			<p> The variable is now updated</p>
+			<table>
+				<tr>
+					<td valign="middle" id="innerDiv" style = "text-align: center;"> blah
+					</td>
+				</tr>
+				<tr>
+					<td valign="middle" id="innerDiv" style = "text-align: center; border: 1px solid black; height: 3rem; width: 3rem;"> 5
+					</td>		
+				</tr>
+			</table>
+
 			<iframe src="../programs/chapter1/chp1-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
 			<iframe src="../programs/chapter1/chp1-00.txt" class = "xsmallRem textBoxBorder" frameborder="0"></iframe>
 			
