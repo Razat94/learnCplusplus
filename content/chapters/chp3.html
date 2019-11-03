@@ -242,7 +242,7 @@
 				</p>
 			</blockquote>
 
-			<iframe src="../programs/chapter3/chp3-03.cpp" class = "largeRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="../programs/chapter3/chp3-03.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
 
 			<div>
 				<h5>Things to look out for:</h5> 
@@ -250,11 +250,14 @@
 					<li>
 						The name of a variable can be composed of letters, digits, and the underscore character. 
 						It must begin with either a letter or an underscore. 
-						Upper and lowercase letters are distinct because C++ is case-sensitive.
+					</li>
+					<li>
+						C++ is case-sensitive; consider the variables blah and BLAH.
+						C++ will consider these variables as two seperate entities.
 					</li>
 					<li>
 						Don't name a variable by a reserved C++ keyword. 
-						You can't name a variable <i>int string</i>.
+						You can't declare a variable <i>int string</i>.
 					</li>
 					<li>
 						Also, try not to redeclare a variable. So if at one point in time you have a variable 'x',

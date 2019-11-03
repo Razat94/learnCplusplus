@@ -1,1 +1,2 @@
-[Error] expected '}' at end of input
+What is your name? John
+Hi, John!

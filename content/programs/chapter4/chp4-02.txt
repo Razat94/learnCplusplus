@@ -1,2 +1,2 @@
-Hello, World!
-I hope you have a great day today!
+What is your name? John Smith
+Hi, John Smith!
