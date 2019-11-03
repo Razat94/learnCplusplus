@@ -1,3 +1,6 @@
-RedirectMatch 404 ^.*$
+ErrorDocument 404 https://razat94.github.io/learnCplusplus/404
 
-ErrorDocument 404 /404.html
+# https://stackoverflow.com/questions/6391147/custom-404-page-issue-in-sub-folders
+
+# I couldn't get the below statement to work, so I just used the full URL instead of the pathname.
+# ErrorDocument 404 /404.html
