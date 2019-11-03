@@ -63,11 +63,25 @@ body {
   letter-spacing: 3px;
 }
 
+ul {
+	list-style-type: none;
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-bottom: 25px;
+}
 
-.notfound p {
+li {
+	margin-bottom: 1%;
+}
+
+.notfound p, li {
   font-family: 'Kanit', sans-serif;
   font-size: 16px;
   font-weight: 200;
+}
+
+.notfound p {
   margin-top: 0px;
   margin-bottom: 25px;
 }
