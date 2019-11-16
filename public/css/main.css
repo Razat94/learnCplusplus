@@ -171,6 +171,15 @@ img {
 	width: 100%;
 }
 
+section #references h4 {
+	padding: 0rem;
+	margin-bottom: 0rem;
+}
+
+section #references a {
+	font-size: 0.9rem;
+}
+
 
 @media screen and (max-width: 768px) {	
 

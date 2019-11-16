@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- SEO tags -->		
-		<title> Chapter 3 - Variables | Learn C++ </title>
+		<title> Chapter 5 - Operators | Learn C++ </title>
 		<meta name="description" content="learnCplusplus is a free website for people who want to learn C++.">
 		<meta name="author" content="Raza Tahir">
 		<link id = "titleImg" rel="icon" type="image/png" href="../../public/img/icons/Blue_orb.png"/>
@@ -47,8 +47,9 @@
 			<button onclick = "location.href = './chp3.html';"> Variables </button>
 			<button onclick = "location.href = './chp4.html';"> Input and Output</button>
 			<button>
-				<strong> <u> Conditional Statements II </u></strong>
+				<strong> <u> Operators </u></strong>
 			</button>
+			<button onclick = "location.href = './chp6.html';"> Conditional Statements I</button>
 			<button>Loops</button>
 			<button>Functions</button>
 			<button>Arrays</button>
@@ -58,28 +59,94 @@
 		<section id = "mainContainer">
 			<ul class="breadcrumb">
 				<li><a href="../../home.html">Home</a></li>
-				<li>Variables</li>
+				<li>Operators</li>
 			</ul>
 
-			<h1 style = "text-align: center;"> Conditional Statements </h1>
+			<h1 style = "text-align: center;"> Operators </h1>
 
-			<iframe src="../programs/chapter5/chp5-00.cpp" class = "mediumRem codeBoxBorder" frameborder="0"></iframe>
+			<p> 
+				Operators perform operations on variables and values.
+				Here's a list of all the common operators in C++:
+				<ul>
+					<li>Assignment Operator</li>
+					<li>Arithmetic Operator</li>
+					<li>Comparison Operator</li>
+					<li>Logical Operator</li>
+				</ul>
+			</p>
+			
+			<h3>Assignment Operators </h3>
+			<iframe src="../programs/chapter5/chp5-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
 			<iframe src="../programs/chapter5/chp5-00.txt" class = "xxsmallRem textBoxBorder" frameborder="0"></iframe>
 			
-			<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet euismod turpis. Donec sollicitudin libero id tellus dignissim cursus. Etiam hendrerit, turpis eget vulputate posuere, lorem est accumsan sem, quis tristique nulla dolor nec ex. Donec ullamcorper ante in augue placerat, id vulputate felis posuere. Phasellus varius rutrum orci. Phasellus suscipit nunc elit, at egestas elit molestie et. Proin et turpis ut metus vehicula lobortis. Sed ultricies eros luctus odio pellentesque, vitae sodales diam rutrum. Phasellus blandit tortor lobortis dui vulputate, vel venenatis nunc efficitur. Nulla hendrerit elit in diam hendrerit lacinia. Etiam quis ullamcorper erat, non fringilla erat.
-			</p>
-			
 			<p>
-			Phasellus auctor elementum eros, eget suscipit dolor egestas in. Etiam eu massa feugiat, consequat ex eu, fermentum neque. Sed auctor tempus urna, suscipit vulputate nunc semper elementum. Morbi turpis tellus, consectetur in justo sit amet, accumsan interdum felis. Quisque erat orci, vestibulum vitae ullamcorper vel, facilisis at neque. In pharetra a quam nec vehicula. Nam vitae ipsum at diam venenatis luctus ac auctor odio. Donec lobortis blandit lacinia. In commodo, eros sit amet blandit facilisis, tortor magna tempus urna, et blandit ligula ipsum quis ex. Sed sed augue in lectus mollis consectetur. Sed vel quam non eros sagittis sollicitudin quis in risus. Sed massa sapien, gravida eget accumsan eu, fermentum a augue. Vestibulum scelerisque felis sit amet augue sodales interdum. Nunc eget neque id augue vulputate lacinia feugiat at tortor. Suspendisse potenti. Integer non eros quis augue rhoncus facilisis eget ut elit.
+				Here are some more examples.
 			</p>
-			
-			<p>
-			Proin vel egestas urna, sed tempus enim. Sed rutrum nunc vel vulputate facilisis. Phasellus vel luctus enim, nec euismod est. Maecenas mattis quis nisi eget tincidunt. Proin ut nibh neque. Morbi scelerisque tincidunt nisi, ut posuere quam sodales eu. Morbi id massa vitae dolor varius euismod at sit amet sem. Proin eget velit arcu. Sed at ultricies sem. Aenean porttitor, libero sit amet pharetra commodo, ex purus elementum mauris, quis aliquet turpis felis non nisl.
 
-			Morbi arcu nunc, iaculis ac egestas et, euismod sed ligula. Donec commodo felis vel ante rhoncus, nec porttitor nisi vehicula. Sed sed nisl ante. Maecenas nulla nulla, tincidunt id tortor ac, viverra pellentesque arcu. Cras felis nisi, tincidunt eu tempor ut, placerat eu nisi. Quisque aliquam, enim quis tincidunt consectetur, turpis nulla dapibus nunc, vitae suscipit sapien lacus sit amet metus. Nam id mauris maximus, mollis felis eget, rutrum felis. Cras iaculis nulla a dui semper, sed sodales nisi tincidunt. Maecenas feugiat vel quam quis laoreet. Aliquam erat volutpat. Nam sollicitudin ipsum eu dui gravida pellentesque. Aliquam id ultrices libero, sed pretium dui.
+			<iframe src="../programs/chapter5/chp5-01.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="../programs/chapter5/chp5-01.txt" class = "xxxsmallRem textBoxBorder" frameborder="0"></iframe>
+
+			<h3>Arithmetic Operators </h3>
+
+			<p>
+				Arithmetic Operators are used to perform arithmetic-like operations	
 			</p>
 			
+			<iframe src="../programs/chapter5/chp5-02.cpp" class = "xsmallRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="../programs/chapter5/chp5-02.txt" class = "xxxsmallRem textBoxBorder" frameborder="0"></iframe>
+
+			<h3>Comparison (Relational) Operators </h3>
+
+			<p> 
+				Comparison operators are used to compare two values. 
+				Remember: The result of such an operation is either true or false (i.e., a Boolean value).
+			</p>
+
+			<ul>
+				<li>
+					'==' is the equal to operator
+				</li>
+				<li>
+					'!=' is the not equal to operator
+				</li>
+				<li>
+					'<' is the less than operator
+				</li>
+				<li>
+					'>' is the right than operator
+				</li>
+				<li>
+					'<=' is the right than operator
+				</li>
+				<li>
+					'>=' is the right than operator
+				</li>
+			</ul>
+
+			<h3>Logical Operators</h3>
+			
+			<p>Here's a list of all the logical operators:</p>
+			<ul>
+				<li>
+					'!' is the NOT operator
+				</li>
+				<li>
+					'&&' is the AND operator
+				</li>
+				<li>
+					'||' is the OR operator
+				</li>
+			</ul>
+
+			
+			<div id = "references">
+				<h4>References:</h4>
+				<a href = "http://www.cplusplus.com/doc/tutorial/operators/">cplusplus.com</a> <br>
+				<a href = "https://www.w3schools.com/python/python_operators.asp">W3 Schools (Python)</a> <br>
+				<a href = "https://www.w3schools.com/js/js_operators.asp">W3 Schools (JavaScript)</a>
+			</div>
+			
+
 			<div class = "pagination">
 				<a class="pagination-link prev" href="./chp4.html"> &#8249; Previous</a>
 				<a class="pagination-link next" href="./chp6.html">Next &#8250;</a>

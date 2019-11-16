@@ -1,20 +1,16 @@
-// For each block, remember: 
-// Every curly brackets must be in a pair so that they are closed.
-// i.e. every opening brace '{' must have a closing brace '}' 
-// and every closing brace '}' must have an opening brace '{'. 
-// So please don't forget to close them.
-
 #include <iostream>
 using namespace std;
 	
-int main() { // opening brace for main function
-	// Program won't execute because we're missing a closing '}' brace. 
-	// There are 2 opening '{' brackets, but only 1 closing '}'  
+int main() {
+	int x = 6;
+	x += 4; // Same as: x = x + 4
+	cout << x << endl;
 	
-	{ // 1st opening brace	
-		{ // 2nd opening brace	
-			cout << "Hello World!";
-		} // 1st closing brace
-	// Missing the 2nd closing brace!
+	int y = 9;
+	y -= 3; // Same as: y = y - 3
+	cout << y << endl;
 	
-} // closing brace for main function.
+	int z = x;
+	z *= y; // Same as: z = z * y
+	cout << z << endl;
+}
