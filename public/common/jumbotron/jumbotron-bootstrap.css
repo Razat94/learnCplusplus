@@ -23,6 +23,7 @@
   background-color: #f6f8fa;
   border-radius: 0.3rem;
   line-height: 1.45;
+  margin-bottom: 1rem;
 }
 
 /* For devices 576 px and smaller */
@@ -80,4 +81,16 @@
 .ml-4,
 .mx-4 {
   margin-left: 1.5rem !important;
+}
+
+/* Different Variations of Jumbotron */
+
+.code-block {
+  border: 0.1rem dashed darkblue;
+  background-color: white;
+}
+
+.alert-danger {
+  background-color: #f8d7da; 
+  color: #721c24;
 }
