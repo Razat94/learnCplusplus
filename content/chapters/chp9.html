@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--- Basic page needs (meta information) -->
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- SEO tags -->		
+		<title> Chapter 9 - Functions | Learn C++ </title>
+		<meta name="description" content="learnCplusplus is a free website for people who want to learn C++.">
+		<meta name="author" content="Raza Tahir">
+		<link id = "titleImg" rel="icon" type="image/png" href="../../public/img/icons/Blue_orb.png"/>
+		
+		<!-- Navbar links --> 
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/topnav/topnav.css">
+		<script type="text/javascript" src="../../public/common/topnav/topnav.js" ></script>
+
+		<!-- Remaining stylesheets -->
+		<link rel = "stylesheet" type = "text/css" href = "../../public/css/main.css">
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/blockquote/blockquote.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/breadcrumb/breadcrumb.css">
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/jumbotron/jumbotron-bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../../public/common/pagination/pagination.css"/>
+	</head>
+	
+	<body onresize="resizeNavbar()">
+
+		<!--  Navbar -->
+		<nav>
+			<a href = "../../index.html"> <p>Learn C++</p> </a>
+			<button id = "icon" onclick = "hamburgerClick()">&#9776;</button>
+			<div id = "navContainer">
+				<button onclick = "location.href = '../../home.html';"  style = "color: #a0a0a0;" >Home</button>
+				<button onclick = "location.href = '../../about.html';" style = "color: #a0a0a0;">About</button>
+			</div>  
+		</nav>
+
+		<!-- Table of Contents (ToC) -->
+		<div id = "sidebar">
+			<h2> Main Menu </h2>
+			<button onclick = "location.href = '../../home.html';"> Home </button> 
+			<button onclick = "location.href = './chp0.html';"> Intro to Programming </button> 
+			<button onclick = "location.href = './chp1.html';"> Hello, World! </button>
+			<button onclick = "location.href = './chp2.html';"> Data Types </button>
+			<button onclick = "location.href = './chp3.html';"> Variables </button>
+			<button onclick = "location.href = './chp4.html';"> Input and Output </button>
+			<button onclick = "location.href = './chp5.html';"> Operators </button>
+			<button onclick = "location.href = './chp6.html';"> Conditional Statements I </button>
+			<button onclick = "location.href = './chp7.html';"> Conditional Statements II </button>
+			<button onclick = "location.href = './chp8.html';"> Loops </button>
+			<button>
+				<strong> <u> Functions </u></strong>
+			</button>
+			
+			<button>Arrays</button>
+		</div>
+		
+		<!-- Main Content -->
+		<section id = "mainContainer">
+			<ul class="breadcrumb">
+				<li><a href="../../home.html">Home</a></li>
+				<li>Functions</li>
+			</ul>
+
+			<h1 style = "text-align: center;"> Welcome! </h1>
+
+			<iframe src="../programs/chapter1/chp1-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="../programs/chapter1/chp1-00.txt" class = "xsmallRem textBoxBorder" frameborder="0"></iframe>
+			
+			<p> 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet euismod turpis. Donec sollicitudin libero id tellus dignissim cursus. Etiam hendrerit, turpis eget vulputate posuere, lorem est accumsan sem, quis tristique nulla dolor nec ex. Donec ullamcorper ante in augue placerat, id vulputate felis posuere. Phasellus varius rutrum orci. Phasellus suscipit nunc elit, at egestas elit molestie et. Proin et turpis ut metus vehicula lobortis. Sed ultricies eros luctus odio pellentesque, vitae sodales diam rutrum. Phasellus blandit tortor lobortis dui vulputate, vel venenatis nunc efficitur. Nulla hendrerit elit in diam hendrerit lacinia. Etiam quis ullamcorper erat, non fringilla erat.
+			</p>
+			
+			<p>
+			Phasellus auctor elementum eros, eget suscipit dolor egestas in. Etiam eu massa feugiat, consequat ex eu, fermentum neque. Sed auctor tempus urna, suscipit vulputate nunc semper elementum. Morbi turpis tellus, consectetur in justo sit amet, accumsan interdum felis. Quisque erat orci, vestibulum vitae ullamcorper vel, facilisis at neque. In pharetra a quam nec vehicula. Nam vitae ipsum at diam venenatis luctus ac auctor odio. Donec lobortis blandit lacinia. In commodo, eros sit amet blandit facilisis, tortor magna tempus urna, et blandit ligula ipsum quis ex. Sed sed augue in lectus mollis consectetur. Sed vel quam non eros sagittis sollicitudin quis in risus. Sed massa sapien, gravida eget accumsan eu, fermentum a augue. Vestibulum scelerisque felis sit amet augue sodales interdum. Nunc eget neque id augue vulputate lacinia feugiat at tortor. Suspendisse potenti. Integer non eros quis augue rhoncus facilisis eget ut elit.
+			</p>
+			
+			<p>
+			Proin vel egestas urna, sed tempus enim. Sed rutrum nunc vel vulputate facilisis. Phasellus vel luctus enim, nec euismod est. Maecenas mattis quis nisi eget tincidunt. Proin ut nibh neque. Morbi scelerisque tincidunt nisi, ut posuere quam sodales eu. Morbi id massa vitae dolor varius euismod at sit amet sem. Proin eget velit arcu. Sed at ultricies sem. Aenean porttitor, libero sit amet pharetra commodo, ex purus elementum mauris, quis aliquet turpis felis non nisl.
+
+			Morbi arcu nunc, iaculis ac egestas et, euismod sed ligula. Donec commodo felis vel ante rhoncus, nec porttitor nisi vehicula. Sed sed nisl ante. Maecenas nulla nulla, tincidunt id tortor ac, viverra pellentesque arcu. Cras felis nisi, tincidunt eu tempor ut, placerat eu nisi. Quisque aliquam, enim quis tincidunt consectetur, turpis nulla dapibus nunc, vitae suscipit sapien lacus sit amet metus. Nam id mauris maximus, mollis felis eget, rutrum felis. Cras iaculis nulla a dui semper, sed sodales nisi tincidunt. Maecenas feugiat vel quam quis laoreet. Aliquam erat volutpat. Nam sollicitudin ipsum eu dui gravida pellentesque. Aliquam id ultrices libero, sed pretium dui
+			</p>		
+
+			<div id = "references">
+				<h4>References:</h4>
+				<a href = "https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm">tutorialspoint</a> <br>
+				<a href = "http://www.cplusplus.com/doc/tutorial/program_structure/">cplusplus.com</a> <br>
+				<a href = "https://www.learn-cpp.org/en/Hello%2C_World%21">Learn-cpp</a>
+			</div>
+
+			<div class = "pagination">
+				<a class="pagination-link prev" href="./chp6.html"> &#8249; Previous</a>
+				<a class="pagination-link next" href="./chp8.html">Next &#8250;</a>
+			</div>
+		</section>
+	</body>
+</html>
