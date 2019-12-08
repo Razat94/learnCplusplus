@@ -90,7 +90,7 @@ img {
 	color: #0086b3;
 }
 
-
+/* Found on homepage to jump to Chp0 */
 #mainContainer .defaultButton {
 	border: 2px solid #0086b3; 
 	color: #0086b3;
@@ -113,19 +113,36 @@ img {
 }
 
 .blackButton {
-    display: inline-block;
-    background-color: #424244;
-    color: white !important;
-    margin-top: 1rem;
-    padding: 0.5rem 2rem;
-    border: 1px solid #424244;
-	text-decoration: none;
-	font-size:  1rem;
-	border-radius: 0.25rem;
+	color: black !important;
+	padding: 1em 2em;
+    border-width: 2px;
+	border-style: solid;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	outline: none;
+	
+	font-weight: normal;
+    font-size: 0.8rem;
+	line-height: 1em;
+	letter-spacing: 0px;
+	text-align: center;
+    text-decoration: none;
+	text-transform: uppercase;
+    
+    -webkit-transition: 0.1s background-color linear, 0.1s color linear;
+    -moz-transition: 0.1s background-color linear, 0.1s color linear;
+    -o-transition: 0.1s background-color linear, 0.1s color linear;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-.blackButton:hover, .shadow-sm {
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+.blackButton:hover {
+    color: #fff !important;
+    background-color: #222;
+    border-color: #222;
 }
 
 .shadow,  .defaultButton {
