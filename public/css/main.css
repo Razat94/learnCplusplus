@@ -31,6 +31,7 @@ img {
 	/* margin: 2rem 0%; */
 }
 
+/* Header */
 #sidebar h2 {
 	text-align: center; 
 	color:  #011d32;
@@ -58,6 +59,11 @@ img {
 #sidebar button:hover {
 	border: 3px solid #0369ca;
 	border-radius: 3px;
+}
+
+#sidebar .currentPageButton {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 #mainContainer {
