@@ -62,30 +62,58 @@
 				<li>Functions I</li>
 			</ul>
 
-			<h1 style = "text-align: center;"> Welcome! </h1>
+			<h1 style = "text-align: center;"> Functions in C++ </h1>
 
-			<iframe src="../programs/chapter1/chp1-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
-			<iframe src="../programs/chapter1/chp1-00.txt" class = "xsmallRem textBoxBorder" frameborder="0"></iframe>
-			
-			<p> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet euismod turpis. Donec sollicitudin libero id tellus dignissim cursus. Etiam hendrerit, turpis eget vulputate posuere, lorem est accumsan sem, quis tristique nulla dolor nec ex. Donec ullamcorper ante in augue placerat, id vulputate felis posuere. Phasellus varius rutrum orci. Phasellus suscipit nunc elit, at egestas elit molestie et. Proin et turpis ut metus vehicula lobortis. Sed ultricies eros luctus odio pellentesque, vitae sodales diam rutrum. Phasellus blandit tortor lobortis dui vulputate, vel venenatis nunc efficitur. Nulla hendrerit elit in diam hendrerit lacinia. Etiam quis ullamcorper erat, non fringilla erat.
+			<p>
+				A <mark>function</mark> is a block of code which runs when it is used (i.e. called).
+				You can think of it like a mini-program; each function has a start and an end.
 			</p>
+
+			<p>
+				So far, you've been writing code in the main function.
+				As you can guess, there can only be <strong> one </strong> main function.
+				The main function will always be called at the beginning of execution, but
+				we can create our own functions and place them wherever we'd like inside the main function.
+				In doing so, The main function will call the right functions when executed and 
+				pass information to and from the functions it calls. 
+			</p>
+
+			<h3> Syntax </h3>
+			<div class="jumbotron code-block">
+				<p>
+					return_type <i> function_name </i> { <br>
+						&ensp; // code to be executed. <br>
+					}
+				</p>
+			</div>
+
+			<iframe src="../programs/chapter9/chp9-00.cpp" class = "smallRem codeBoxBorder" frameborder="0"></iframe>
+			<iframe src="../programs/chapter9/chp9-00.txt" class = "xxsmallRem textBoxBorder" frameborder="0"></iframe>
 			
 			<p>
-			Phasellus auctor elementum eros, eget suscipit dolor egestas in. Etiam eu massa feugiat, consequat ex eu, fermentum neque. Sed auctor tempus urna, suscipit vulputate nunc semper elementum. Morbi turpis tellus, consectetur in justo sit amet, accumsan interdum felis. Quisque erat orci, vestibulum vitae ullamcorper vel, facilisis at neque. In pharetra a quam nec vehicula. Nam vitae ipsum at diam venenatis luctus ac auctor odio. Donec lobortis blandit lacinia. In commodo, eros sit amet blandit facilisis, tortor magna tempus urna, et blandit ligula ipsum quis ex. Sed sed augue in lectus mollis consectetur. Sed vel quam non eros sagittis sollicitudin quis in risus. Sed massa sapien, gravida eget accumsan eu, fermentum a augue. Vestibulum scelerisque felis sit amet augue sodales interdum. Nunc eget neque id augue vulputate lacinia feugiat at tortor. Suspendisse potenti. Integer non eros quis augue rhoncus facilisis eget ut elit.
-			</p>
-			
-			<p>
-			Proin vel egestas urna, sed tempus enim. Sed rutrum nunc vel vulputate facilisis. Phasellus vel luctus enim, nec euismod est. Maecenas mattis quis nisi eget tincidunt. Proin ut nibh neque. Morbi scelerisque tincidunt nisi, ut posuere quam sodales eu. Morbi id massa vitae dolor varius euismod at sit amet sem. Proin eget velit arcu. Sed at ultricies sem. Aenean porttitor, libero sit amet pharetra commodo, ex purus elementum mauris, quis aliquet turpis felis non nisl.
-
-			Morbi arcu nunc, iaculis ac egestas et, euismod sed ligula. Donec commodo felis vel ante rhoncus, nec porttitor nisi vehicula. Sed sed nisl ante. Maecenas nulla nulla, tincidunt id tortor ac, viverra pellentesque arcu. Cras felis nisi, tincidunt eu tempor ut, placerat eu nisi. Quisque aliquam, enim quis tincidunt consectetur, turpis nulla dapibus nunc, vitae suscipit sapien lacus sit amet metus. Nam id mauris maximus, mollis felis eget, rutrum felis. Cras iaculis nulla a dui semper, sed sodales nisi tincidunt. Maecenas feugiat vel quam quis laoreet. Aliquam erat volutpat. Nam sollicitudin ipsum eu dui gravida pellentesque. Aliquam id ultrices libero, sed pretium dui
-			</p>		
+				You may be asking yourself: Well, why do we need functions? Why not just write all our code in the main function?
+				From what I can tell, there are 3 main reasons why we use them:
+				
+				<ul>
+					<li>
+						Functions can cut large programs into smaller, manageable pieces.
+					</li>
+					<li>
+						Functions are really handy since once they're written, it can be used and re-used indefinitely. 
+					</li>
+					<li>
+						Functions make the program easier to read
+					</li>
+				</ul>
+					
+			</p>			
 
 			<div id = "references">
 				<h4>References:</h4>
 				<a href = "https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm">tutorialspoint</a> <br>
 				<a href = "http://www.cplusplus.com/doc/tutorial/program_structure/">cplusplus.com</a> <br>
 				<a href = "https://www.learn-cpp.org/en/Hello%2C_World%21">Learn-cpp</a>
+				<a href = "https://www.w3schools.com/cpp/cpp_functions.asp">w3schools.com</a>
 			</div>
 
 			<div class = "pagination">
