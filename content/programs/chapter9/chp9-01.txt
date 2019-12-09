@@ -1,0 +1,7 @@
+Oh, hello! What's your name? Lisa
+Okay. So your name is Lisa!
+By the way, how old are you? 25
+Oh, okay. So you are 25 years old
+
+Got it. So let me recap what I've learned so far:
+Your name is Lisa and you are 25 years old.
