@@ -1,0 +1,5 @@
+Pass by Reference:
+Values of i & j BEFORE swapping:
+10      20
+Values of i & j AFTER swapping:
+20      10
