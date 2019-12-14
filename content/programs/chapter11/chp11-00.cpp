@@ -1,11 +1,12 @@
+// Taken from w3schools:
+// https://www.w3schools.com/cpp/showcpp.asp?filename=demo_array
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-	int size = 3;
-	int arr[3] = { 1, 2, 3};
-	for (int i = 0; i < size; i++ ) {
-		cout << arr[i];
-	}	
+  string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+  cout << cars[0];
+  return 0;
 }
