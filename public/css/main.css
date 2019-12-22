@@ -112,6 +112,17 @@ img {
 	cursor: pointer;
 }
 
+.downloadButton {
+	background-color: DodgerBlue;
+	border: none;
+	color: white !important;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	text-decoration: none;
+  }
+
 .blackButton {
 	color: black !important;
 	padding: 1em 2em;
