@@ -1,4 +1,4 @@
-Exercises
+Exercises (Chapter 4)
 
 A.
 Ask the user to type in a nummber.

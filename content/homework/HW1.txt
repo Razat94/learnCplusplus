@@ -7,7 +7,7 @@ A double variable, unlike int, can hold real number (or floating-point number) s
 We also declare a "constant" double variable called PI, whose value cannot be changed, and initialize its value to 3.14159265.
 
 
-Exercises
+Exercises (Chapter 1)
 Write programs called PrintPatternX.cpp (where X from A to D) to print EACH of the following patterns. Use one "cout <<" for each line of outputs. End each line by printing an "endl".
 * * * * *      * * * * *     * * * * *         *
  * * * * *     *       *      *     *         * *
