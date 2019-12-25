@@ -1,0 +1,57 @@
+Exercises
+
+A.
+Ask the user to type in a nummber.
+Output that same number.
+
+B. 
+Prompt (Or ask) user to input how many pounds they weigh.
+Output how many kilograms they weigh
+
+C.
+Prompt user to input the current weathers temperatue in Farenheit.
+Output the current weathers temperature in Celsius.
+
+
+D.
+Prompt user and ask them to input the radius of a circle.
+Output the area.
+
+
+E.
+Prompt user and ask them for the base and height of an imaginary triangle.
+Output the area.
+
+F.
+Input the # of miles you'll need to drive, and how fast you'll be driving.
+Output time it takes to drive that distance.
+
+G.
+Input the number of cents you have.
+Output the answer in dollar (decimal) format.
+
+H.
+There are 3 trees in Terry's yard.
+Ask the user to input the height (in inches) of each tree.
+Output the average height of a tree in Terry's yard.
+
+I.
+Ask the user how many apples, bananas, and oranges they're planning to buy.
+Output the total count of all fruit they'll buy.
+
+J.
+----- ----- ----- ----- -----
+Welcome to the Grocery Store!
+----- ----- ----- ----- -----
+
+You can purchase five things: Milk, Bread, Eggs, Water and Cookies.
+
+Here are the prices of each item:
+Milk:	$3.00
+Bread:	$2.00
+Eggs:	$2.00
+Water:	$4.00
+Cookies:$3.00
+
+Ask the user how many of each item they would like to purchase.
+Output the total number of items they've gotten, and what their total would be.
