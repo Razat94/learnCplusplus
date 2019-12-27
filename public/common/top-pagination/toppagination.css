@@ -8,6 +8,16 @@
   border-radius: 0.25rem;
 }
 
+.flex-wrap {
+  -ms-flex-wrap: wrap!important;
+  flex-wrap: wrap!important;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+
 .page-link {
   position: relative;
   display: block;
@@ -18,6 +28,7 @@
   background-color: #fff;
   border-radius: 0.2rem;
   margin-right: 0.1rem;
+  text-decoration: none;
 }
 
 .page-link:hover {
@@ -51,7 +62,7 @@
 
 .page-item.active .page-link {
   z-index: 1;
-  color: #fff;
+  color: #fff !important;
   background-color: dodgerblue;
   border-color: black;
 }

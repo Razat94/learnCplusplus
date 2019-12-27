@@ -1,8 +1,8 @@
-.pagination {
+.bottom-pagination {
 	margin-top: 0.25rem;
 }
 
-.pagination .pagination-link {
+.bottom-pagination .pagination-link {
 	font-size: 0.75rem;
 	font-family: sans-serif;
 	text-decoration: none;
@@ -14,7 +14,7 @@
 	margin-top: 0.25rem;
 }
 
-.pagination .pagination-link:hover{
+.bottom-pagination .pagination-link:hover{
 	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
