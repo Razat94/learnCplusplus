@@ -1,0 +1,27 @@
+.bottom-pagination {
+	margin-top: 0.25rem;
+}
+
+.bottom-pagination .pagination-link {
+	font-size: 0.75rem;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	background-color: #337ab7;
+	color: #fff !important;
+	border: 1px solid #dee2e6;
+	border-radius: .25rem;
+	margin-top: 0.25rem;
+}
+
+.bottom-pagination .pagination-link:hover{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.prev {
+	float: left;
+}
+	
+.next {
+	float: right;
+}
