@@ -46,7 +46,6 @@ function leftArrow(pagination, pageNumber) {
 
     // opening li tag
     // if pageNumber == 0, make li tag disabled.
-
     if (pageNumber == 0) {
         leftArrow = leftArrow + "<li class=\"page-item disabled\">";
     } else {
@@ -74,25 +73,31 @@ function leftArrow(pagination, pageNumber) {
     return leftArrow;
 } 
 
-function middleArrow(pagination, pageNumber) {
-    // opening li tag
+function pageLinks(pagination, pageNumber, lastChapter) {
+    // We need to create a links variable to hold the individual pages of the pagination.
+    var links = "";
     
-    pagination = pagination + "<li class=\"page-item disabled\">";
+    // opening li tag
+    // if pageNumber == active page, make li tag active.
+    for (var i = 0; i < (lastChapter + 1); i++) {
+        if (pageNumber == i) {
+            links = links + "<li class=\"page-item active\">";
+        } else {
+            links = links + "<li class=\"page-item\">";
+        }
 
-    // opening anchor tag
-    pagination = pagination + "<a class=\"page-link\" ";
+        // opening anchor tag
+        links = links + "<a class=\"page-link\" ";
 
-    pagination = pagination + "\href=\"#\"";
+        // If pageNumber is NOT equal to i (active page), assign it a href attribute.
+        // href = "./chpX.html"
+        links = links + "href=\"./chp" + i + ".html\">" + i;
 
-    pagination = pagination + "aria-label=\"Previous\">";
+        // closing tag
+        links = links + "</a> </li>"
+    }
 
-    // span tag
-   pagination = pagination + "<span aria-hidden=\"true\">&#8249;</span>";
-
-    // closing tag
-    pagination = pagination + "</a> </li>"
-
-    return pagination;
+    return links;
 }
 
 function rightArrow(pagination, pageNumber, lastChapter) {
@@ -135,21 +140,19 @@ $(document).ready(function(){
     // isJqueryLoaded();
 
     var pagination = "";
+    var pageNumber = getNumberFromFileName();
 
     // I couldn't use Client-Side Javascript (node.js seemed to work) to count # of files in a directory 
     // https://stackoverflow.com/questions/6994212/is-there-a-way-to-return-a-list-of-all-the-image-file-names-from-a-folder-using
     // https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local
     var lastChapter = 11;
-    var pageNumber = getNumberFromFileName();
     
+    // add content
     pagination = pagination + leftArrow(pagination, pageNumber);
+    pagination = pagination + pageLinks(pagination, pageNumber, lastChapter);
     pagination = pagination + rightArrow(pagination, pageNumber, lastChapter);
 
-
-
-
     /* Add the scripted HTML code to actual page. */
-    console.log(pagination);
     $('.pagination').append(pagination);
 })
 
