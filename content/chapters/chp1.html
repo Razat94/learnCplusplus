@@ -13,6 +13,9 @@
         <meta name="author" content="Raza Tahir">
         <link id = "titleImg" rel="icon" type="image/png" href="../../public/img/icons/Blue_orb.png"/>
 
+		<!-- Load Jquery -->
+		<script src= "../../jquery.min.js"></script>
+
 		<!-- Navbar links -->
 		<link rel = "stylesheet" type = "text/css" href = "../../public/common/topnav/topnav.css">
 		<script type="text/javascript" src="../../public/common/topnav/topnav.js" ></script>
@@ -20,7 +23,6 @@
 		<!-- Top Pagination links -->
 		<link rel = "stylesheet" type = "text/css" href = "../../public/common/pagination/pagination.css">
 		<script type="text/javascript" src="../../public/common/pagination/pagination.js" ></script>
-		
 		
 		<!-- Remaining stylesheets -->
 		<link rel = "stylesheet" type = "text/css" href = "../../public/css/main.css">
@@ -70,34 +72,40 @@
 			
 			<h1 style = "text-align: center;"> Structure of the "Hello, World!" C++ Program </h1>
 			
-			<div aria-label="Page navigation example" style = "text-align: center;">
+			<!-- Main Pagination -->
+			<div id = "main-pagination" aria-label="Page navigation example">
 				<ul class="pagination pagination-sm flex-wrap justify-content-center">
-					<li class="page-item">
-						<a class="page-link" href="#" aria-label="Previous">
-							<span aria-hidden="true">&#8249;</span>
-						</a>
-					</li>
-					<li class="page-item"><a class="page-link" href="#">0</a></li>
-					<li class="page-item active"><a class="page-link" href="#">1</a></li>
-					<li class="page-item"><a class="page-link" href="#">2</a></li>
-					<li class="page-item"><a class="page-link" href="#">3</a></li>
-					<li class="page-item"><a class="page-link" href="#">4</a></li>
-					<li class="page-item"><a class="page-link" href="#">5</a></li>
-					<li class="page-item"><a class="page-link" href="#">6</a></li>
-					<li class="page-item"><a class="page-link" href="#">7</a></li>
-					<li class="page-item"><a class="page-link" href="#">8</a></li>
-					<li class="page-item"><a class="page-link" href="#">9</a></li>
-					<li class="page-item"><a class="page-link" href="#">10</a></li>
-					<li class="page-item"><a class="page-link" href="#">11</a></li>
-					<li class="page-item">
-						<a class="page-link" href="#" aria-label="Next">
-							<span aria-hidden="true">&#8250;</span>
-						</a>
-					</li>
 				</ul>
 			</div>
-			
 
+			<!-- Test Purposes -->
+			<!-- <div class = "main-pagination" aria-label="Page navigation example">
+				<ul class="pagination-sm flex-wrap justify-content-center">
+						<li class="page-item">
+							<a class="page-link" href="./chp0.html" aria-label="Previous">
+								<span aria-hidden="true">&#8249;</span>
+							</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">0</a></li>
+						<li class="page-item active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">4</a></li>
+						<li class="page-item"><a class="page-link" href="#">5</a></li>
+						<li class="page-item"><a class="page-link" href="#">6</a></li>
+						<li class="page-item"><a class="page-link" href="#">7</a></li>
+						<li class="page-item"><a class="page-link" href="#">8</a></li>
+						<li class="page-item"><a class="page-link" href="#">9</a></li>
+						<li class="page-item"><a class="page-link" href="#">10</a></li>
+						<li class="page-item"><a class="page-link" href="#">11</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#" aria-label="Next">
+								<span aria-hidden="true">&#8250;</span>
+							</a>
+						</li>
+					</ul>
+				</div> -->
+			
 			<p> In the last chapter, we introduced the idea of what a computer program does. 
 				Let's now write a simple C++ program.
 			</p>
