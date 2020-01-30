@@ -89,7 +89,7 @@ function pageLinks(pagination, pageNumber, lastChapter) {
         // opening anchor tag
         links = links + "<a class=\"page-link\" ";
 
-        // If pageNumber is NOT equal to i (active page), assign it a href attribute.
+        // Assign each page a href attribute.
         // href = "./chpX.html"
         links = links + "href=\"./chp" + i + ".html\">" + i;
 
