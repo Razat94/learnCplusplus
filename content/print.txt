@@ -1,0 +1,20 @@
+In programming, a variable is a container for a value. You can think of variables as little containers for information that live in a computer’s memory. 
+Information stored in variables, such as a username, account number, or even personalized greeting can then be found in memory.
+
+Variables also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves.
+
+In short, variables label and store data in memory. There are only a few things you can do with variables:
+
+Create a variable with a descriptive name.
+Store or update information stored in a variable.
+Reference or “get” information stored in a variable.
+
+
+
+It is important to distinguish that variables are not values; they contain values and represent them with a name. Observe the diagram with the colored boxes. Each box represents variables; the values are represented by the content, and the name is represented with the label.
+
+
+
+When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they’re a series of letters, numbers, or symbols connected in order — as if threaded together by string. Strings can be defined in different ways:
+
+
