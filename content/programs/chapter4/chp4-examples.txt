@@ -1,4 +1,4 @@
-Exercises (Chapter 4)
+Chapter 4 Example Problems
 
 A.
 Ask the user to type in a nummber.
