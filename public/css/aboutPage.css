@@ -60,7 +60,7 @@
 }
 
 .blackStripBackground{
-	background-image:url("https://automanager.blob.core.windows.net/wmclients/037555/images/buyheader4.jpg");
+	background-image:url("../img/carDashboardbuyheader4.jpg");
 	background-position: center center;
     background-attachment: inherit;
     background-size: cover;
