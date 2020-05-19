@@ -40,3 +40,33 @@
 	  padding: 1rem 12rem;
   }
 }
+
+.blackStripBackground {
+	background-color: black; 
+	padding: 1rem 0rem;
+    color: white;
+    text-align: center;
+}
+
+.blackStripBackground h3 {
+	font-size: 2rem !important;
+	color: white;
+	text-transform: uppercase;
+}
+
+.blackStripBackground p {
+	font-size: 2rem !important;
+	color: white;
+}
+
+.blackStripBackground{
+	background-image:url("https://automanager.blob.core.windows.net/wmclients/037555/images/buyheader4.jpg");
+	background-position: center center;
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blackStripBackground>.container {
+    background: transparent;
+}
