@@ -1,6 +1,10 @@
 /* Breadcrumb comes from W3 Schools */
 /* https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 
+.breadcrumb {
+	background-color: white !important;
+}
+
 /* Style the list */
 ul.breadcrumb {
   padding: 0.5rem 1rem;
@@ -23,7 +27,7 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: aliceblue;
+  
 }
 
 /* Add a color on mouse-over */

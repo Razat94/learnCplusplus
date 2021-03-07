@@ -64,6 +64,7 @@ img {
 #sidebar .currentPageButton {
 	font-weight: bold;
 	text-decoration: underline;
+	border-left: 3px solid black !important;
 }
 
 #mainContainer {
